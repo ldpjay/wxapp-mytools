@@ -1,0 +1,63 @@
+.inputView {
+  padding: 10px;
+  background-color: #F5F5F5;
+}
+.input1 {
+  margin: 10rpx;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  height: 40px;
+}
+.buttonView {
+  padding: 10px;
+  background-color: #FAFAFA;
+}
+.button1 {
+  margin: 10rpx;
+}
+.textView {
+  background-color: #F5F5F5;
+}
+.text1 {
+  margin: 10rpx;
+  padding: 15px;
+  color:red;
+  font-size:20px;
+  text-align:center;
+  height: 50px;
+}
+
+/*
+.test {
+  background-color: gray;
+  background-image: url(/i/eg_bg_04.gif);
+  background-repeat: repeat-y; // 图片平铺
+  background-position:center; // 图片位置
+  background-attachment:fixed; // 图片不随文字滚动
+
+  text-indent: 5em; // 文字缩进
+  text-align:center; // 对齐方式
+  word-spacing: 30px; // 字间距
+  letter-spacing: 20px; // 字母间隔
+  text-decoration: underline; // 文本装饰（none, underline, overline, line-through, blink）
+
+  border-style: solid dotted dashed double; // 四种边框样式：实线上边框、点线右边框、虚线下边框和一个双线左边框。outset:凸起
+  border-width: 5px, 5px, 5px, 5px;
+  border-color: blue red; // 边框颜色，transparent：透明
+
+}
+*/
+
+
+
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+#text3 {
+  margin: 20rpx;
+  padding:30px;
+}

@@ -1,0 +1,38 @@
+<!--test.wxml-->
+
+<view class="inputView">用户名：
+  <input class="input1" name="userName" placeholder="请输入用户名" bindinput="inputUserName"/>
+</view>
+<view class="inputView">密  码：
+  <input class="input1" name="userPswd" password placeholder="请输入密码" bindinput="inputPassword"/>
+</view>
+<view class="buttonView" style="background-color:#fbf9fe">
+  <button class="button1" bindtap="btnLoginClick">登录</button>
+  <button class="button1" bindtap="btnResetClick">重置</button>
+</view>
+<view class="textView">
+  <text class="text1">{{inputTips}}</text>
+</view>
+
+
+
+
+
+
+
+<!--
+<view wx:for="{{array}}"> {{item}} </view>
+<view bindtap="add"> {{count}} </view>
+<view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! {{count}} </view>
+<view style="color:{{color}};" />
+<view class="normal_view" />
+<web-view src="https://www.baidu.com">baidu</web-view>
+-->
+
+<!--logs.wxml
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view>
+-->
